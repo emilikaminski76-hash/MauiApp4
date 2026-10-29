@@ -55,6 +55,38 @@
             VerticalOptions="Start" 
             Margin="0,35,0,0"/>
             <Image 
-                Source=" "
+                Source="triangle.png"
+                WidthRequest="100"
+                HeightRequest="100"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" 
+                Margin="0,-15,0,0"/>
+            <Image 
+                Source="triangle.png"
+                WidthRequest="100"
+                HeightRequest="100"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" 
+                Rotation="180"
+                Margin="0,15,0,0"/>
+             </Grid>
+        <Label
+            Text="Canada"
+            HorizontalOptions="Center"
+            VerticalOptions="Center" />
+        <Grid ColumnDefinitions="*,2*,*" HeightRequest="200">
+            <BoxView BackgroundColor="red" Grid.Column="0"/>
+            <BoxView BackgroundColor="White"  Grid.Column="1"/>
+            <BoxView BackgroundColor="red" Grid.Column="2"/>
+            <Image 
+                Source="redleaf.png"
+                Grid.Column="1"
+                 WidthRequest="100"
+                 HeightRequest="100"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center" />
+            </Grid>
+
+
     </VerticalStackLayout>
 </ContentPage>
